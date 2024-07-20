@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+}
+.menu{
+    /* padding-left: 10px; */
+}
+.navbar {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+    padding-right: 350px;
+}
+
+.logo img {
+    height: 45px;
+}
+
+.logo h1 {
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 25px;
+}
+
+.logo sup {
+    font-size: 8px;
+}
+
+.search-bar {
+    margin: 5px;
+    display: flex;
+}
+
+.search-bar input {
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+    border: 0.1px solid black;
+}
+
+.btn{
+    position: absolute;
+    /* background-color: #333; */
+    padding: 13px 380px;
+
+}
+
+.side-icons {
+    display: flex;
+    align-items: center;
+}
+
+.side-icons i,
+img {
+    font-size: 25px;
+    margin: 15px;
+}
+
+.side-icons img {
+    height: 33px;
+}
+
+.main-container {
+    display: flex;
+    margin-top: 10px;
+}
+
+.side-bar {
+    width: 20%;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+    width: 80%;
+    height: 100vh;
+}
+
+.home {
+    display: flex;
+    padding: 20px 0 0 20px;
+    align-items: center;
+}
+
+.home i {
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+.home h1 {
+    font-size: 17px;
+    padding-left: 30px;
+}
+
+.home:hover {
+    background-color: rgb(230, 230, 230);
+    border-radius: 3px;
+}
+
+.hr {
+    margin-top: 20px;
+    background-color: rgb(136, 136, 136);
+    height: 2px;
+    width: 220px;
+}
+
+.setting {
+    display: flex;
+    padding: 20px 0 0 20px;
+    align-items: center;
+}
+
+.setting i {
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+.setting h1 {
+    font-size: 17px;
+    padding-left: 30px;
+}
+
+.setting:hover {
+    background-color: rgb(230, 230, 230);
+    border-radius: 3px;
+}
+
+.Explore {
+    font-size: 17px;
+    padding: 20px 0 0 20px;
+}
+
+.Explore h1 {
+    font-size: 20px;
+}
+
+.trending {
+    display: flex;
+    padding: 20px 0 0 20px;
+    align-items: center;
+}
+
+.trending i {
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+.trending h1 {
+    font-size: 17px;
+    padding-left: 30px;
+}
+
+.trending:hover {
+    background-color: rgb(230, 230, 230);
+    border-radius: 3px;
+}
