@@ -2,9 +2,11 @@ body {
     margin: 0;
 }
 .menu{
-    /* padding-left: 10px; */
+    margin-top: 30px;
 }
 .navbar {
+    top: 0;
+    background-color: white;
     height: 50px;
     width: 100%;
     display: flex;
@@ -15,7 +17,7 @@ body {
 
 .logo {
     display: flex;
-    padding-right: 350px;
+    /* padding-right: 350px; */
 }
 
 .logo img {
@@ -41,12 +43,13 @@ body {
     width: 400px;
     height: 30px;
     border-radius: 20px;
-    border: 0.1px solid black;
+    border: 1px solid rgb(216, 216, 216);
+    padding-left: 10px;
+    /* z-index: 1; */
 }
 
 .btn{
     position: absolute;
-    /* background-color: #333; */
     padding: 13px 380px;
 
 }
@@ -84,7 +87,7 @@ img {
 
 .home {
     display: flex;
-    padding: 20px 0 0 20px;
+    padding: 0 0 0 20px;
     align-items: center;
 }
 
@@ -100,19 +103,19 @@ img {
 
 .home:hover {
     background-color: rgb(230, 230, 230);
-    border-radius: 3px;
+    border-radius: 10px;
 }
 
 .hr {
     margin-top: 20px;
     background-color: rgb(136, 136, 136);
-    height: 2px;
+    height: 1px;
     width: 220px;
 }
 
 .setting {
     display: flex;
-    padding: 20px 0 0 20px;
+    padding: 0 0 0 20px;
     align-items: center;
 }
 
@@ -128,12 +131,12 @@ img {
 
 .setting:hover {
     background-color: rgb(230, 230, 230);
-    border-radius: 3px;
+    border-radius: 10px;
 }
 
 .Explore {
     font-size: 17px;
-    padding: 20px 0 0 20px;
+    padding: 5px 0 0 20px;
 }
 
 .Explore h1 {
@@ -142,7 +145,7 @@ img {
 
 .trending {
     display: flex;
-    padding: 20px 0 0 20px;
+    padding: 0 0 0 20px;
     align-items: center;
 }
 
@@ -158,5 +161,50 @@ img {
 
 .trending:hover {
     background-color: rgb(230, 230, 230);
-    border-radius: 3px;
+    border-radius: 10px;
+}
+.category{
+    display: flex;
+    gap: 10px;
+}
+.all{
+    text-align: center;
+    height: 30px;
+    max-width: 150px;
+    min-width: 60px;
+    background-color: rgb(216, 216, 216);
+    border-radius: 5px;
+}
+.all p{
+    margin: 5px 15px 0px 15px;
+}
+
+.card-section{
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+}
+
+.card-img img{
+    height: 170px;
+    border-radius: 10px;
+}
+
+.YouTube-Profile img{
+    height: 50px;
+    border-radius: 50%;
+}
+
+.card-content{
+    display: flex;
+}
+.Card-Caption{
+    width: 250px;
+}
+.Card-Caption img{
+    height: 40px;
+    border-radius: 50%;
+}
+.Card-Caption h2{
+    font-size: 20px;
 }
