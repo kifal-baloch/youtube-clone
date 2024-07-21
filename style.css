@@ -208,3 +208,63 @@ img {
 .Card-Caption h2{
     font-size: 20px;
 }
+
+.shorts-tittle {
+    display: flex;
+    align-items: center;
+}
+
+.shorts-tittle h1 {
+    margin-left: 7px;
+    font-size: 28px;
+}
+
+.short-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.short-card{
+    width: 250px;
+}
+
+.short-card img {
+    height: 350px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.short-content h2{
+    font-size: 18px;
+}
+
+.short-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.show-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.show-more a{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    /* top: 85%; */
+    background-color: white;
+    padding: 5px 20px 5px 20px;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 30px;
+}
+
+.line{
+    background-color: rgb(230, 230, 230);
+    height: 2px;
+    width: 100%;
+}
