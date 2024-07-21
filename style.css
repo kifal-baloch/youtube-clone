@@ -170,6 +170,7 @@ img {
     display: flex;
     gap: 10px;
     padding-left: 15px;
+    flex-wrap: wrap;
 }
 .all{
     text-align: center;
@@ -231,6 +232,7 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .short-card{
