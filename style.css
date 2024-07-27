@@ -1,9 +1,16 @@
 body {
     margin: 0;
 }
+
+a{
+   color: black;
+   text-decoration: none;
+}
+
 .menu{
     margin-top: 30px;
 }
+
 .navbar {
     top: 0;
     background-color: white;
@@ -29,10 +36,6 @@ body {
     margin-top: 25px;
 }
 
-.logo sup {
-    font-size: 8px;
-}
-
 .search-bar {
     margin: 5px;
     display: flex;
@@ -52,14 +55,13 @@ body {
 .btn{
     position: absolute;
     padding-top: 13px;
-    right: 365px;
-
+    right: 44.5%;
 }
 
 .side-icons {
     display: flex;
     align-items: center;
-    padding-left: 150px;
+    padding-left: 500px;
 }
 
 .side-icons i,
@@ -73,25 +75,30 @@ img {
 }
 
 .main-container {
+    background-color: #FFFFFF;
     display: flex;
     margin-top: 10px;
 }
 
 .side-bar {
-    width: 20%;
+    width: 15%;
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+    position: fixed;
+    scrollbar-color: transparent;
 }
 
 .content {
-    width: 80%;
-    /* height: 100vh; */
+    width: 85%;
+    padding-left: 15%;
 }
 
 .home {
     display: flex;
     padding: 0 0 0 20px;
     align-items: center;
+    width: 180px;
 }
 
 .home i {
@@ -110,7 +117,7 @@ img {
 }
 
 .hr {
-    margin-top: 20px;
+    margin: 20px 0 20px 0;
     background-color: rgb(216, 216, 216);
     height: 1px;
     width: 220px;
@@ -120,6 +127,7 @@ img {
     display: flex;
     padding: 0 0 0 20px;
     align-items: center;
+    width: 180px;
 }
 
 .setting i {
@@ -137,6 +145,39 @@ img {
     border-radius: 10px;
 }
 
+.Subscription-heading{
+    font-size: 17px;
+    padding: 5px 0 0 20px;
+}
+
+.Subscription-heading h1{
+    font-size: 20px;
+}
+
+.Subscription {
+    display: flex;
+    padding: 0 0 0 20px;
+    align-items: center;
+    width: 180px;
+}
+
+.Subscription img {
+    height: 30px;
+    border-radius: 50%;
+    width: 30px;
+    margin: 0;
+}
+
+.Subscription h1 {
+    font-size: 17px;
+    padding-left: 30px;
+}
+
+.Subscription:hover {
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+}
+
 .Explore {
     font-size: 17px;
     padding: 5px 0 0 20px;
@@ -150,6 +191,7 @@ img {
     display: flex;
     padding: 0 0 0 20px;
     align-items: center;
+    width: 180px;
 }
 
 .trending i {
@@ -192,20 +234,27 @@ img {
     display: flex;
     /* flex-direction: row; */
     flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card{
+    width: 300px;
+    gap: 50px;
 }
 
 .card-img img{
-    height: 170px;
+    width: 280px;
     border-radius: 10px;
 }
 
 .YouTube-Profile img{
-    height: 50px;
+    height: 40px;
     border-radius: 50%;
 }
 
 .card-content{
     display: flex;
+    margin: 0;
 }
 .Card-Caption{
     width: 250px;
@@ -214,8 +263,9 @@ img {
     height: 40px;
     border-radius: 50%;
 }
-.Card-Caption h2{
-    font-size: 20px;
+.Card-Caption h3{
+    font-size: 15px;
+    margin: 0;
 }
 
 .shorts-tittle {
@@ -236,11 +286,11 @@ img {
 }
 
 .short-card{
-    width: 250px;
+    width: 270px;
 }
 
 .short-card img {
-    height: 350px;
+    height: 400px;
     width: 250px;
     border-radius: 10px;
 }
@@ -253,6 +303,12 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 3px 0 20px;
+    margin: 0;
+}
+
+.short-card p{
+    padding: 0 3px 0 20px;
 }
 
 .show-more{
